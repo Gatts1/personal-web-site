@@ -1,0 +1,62 @@
+body{
+  margin: 0px auto;
+  width: 90%;
+  border: 2px solid black;
+  position: relative;
+}
+nav{
+  height: 13vh;
+  padding: 3em;  
+  position: sticky;
+  top: 0;
+  margin-top: 50px;
+  background-color:black;
+}
+nav>a{
+  margin: 5px 7%;
+  text-decoration: none;
+  color: white;
+  font-size: 35px;
+}
+.about{
+  height: 60vh;
+  padding: 10em 5em;  
+}
+h1, main p{
+  width:45%;
+}
+.about>img{
+  float:right;
+  width:55%;
+  padding-bottom: 3em;
+  
+}
+.social{
+  background-color: black;
+  padding: 3em;
+  padding-left: 10%;
+  margin: 0px auto;
+  text-align:center;
+  overflow: hidden;
+  width: 87.5%;
+  
+}
+.social a{
+  float:left;
+  margin: 0px 50px;
+  width: 23%;
+}
+.media{
+  margin: 0px 40px;
+  color: white;
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  width: 24%;
+  text-decoration: none;
+  font-weight: bold;
+}
+footer p{
+  text-align: center;
+  font-weight: bold;
+}
